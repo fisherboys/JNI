@@ -1,3 +1,6 @@
-# My Awesome Book
+The Java. Native Interface Programmer’s Guide and Specification的中文翻译。
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+一来是为了学习JNI，二来是为了学习英语。
+
+本人第一次翻译，欢迎拍砖。
+
