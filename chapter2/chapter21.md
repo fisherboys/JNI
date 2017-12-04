@@ -1,3 +1,5 @@
+## 2.1 概览
+
 图2.1说明使用JDK或者Java 2 SDK编写一个简单的Java应用程序来调用C函数打印"Hello World!"。整个过程由以下步骤组成：
 
 1. 创建一个声明本地方法的类HelloWorld.java。
@@ -12,3 +14,4 @@
 ![](/assets/Figure_2_1.jpg)
 
 图2.1
+
