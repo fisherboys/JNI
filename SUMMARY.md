@@ -15,7 +15,7 @@
 * [chapter3](chapter3.md)
   * [chapter3.1](chapter3/chapter31.md)
   * [chapter3.2](chapter3/chapter32.md)
-  * chapter3.3
+  * [chapter3.3](chapter3/chapter33.md)
 * [chapter4](chapter4.md)
 * [chapter5](chapter5.md)
 * [chapter6](chapter6.md)
