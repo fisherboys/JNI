@@ -1,3 +1,5 @@
+## 2.2 声明本地方法
+
 从写下面的Java程序开始。这个程序定义了一个名字为“HelloWorld”的类，里面包含一个print方法。
 
 ```
@@ -19,3 +21,4 @@ HelloWorld类在开始的时候声明了print\(\)的本地方法。接着在主�
 我们定义一个主函数运行HelloWorld类。主函数以与调用普通方法相同的方式调用本地方法print。
 
 System.loadLibrary包含一个库名，定位具有相同名字的库名，并将该库加载入应用程序中。我们将在本书的后续章节讨论加载过程。现在仅需记住，为了使System.loadLibrary\("HelloWorld"\)成功加载，我们需要创建一个名为HelloWorld\(在win32平台上\)或libHelloWorld.so\(在Solaris平台上\)的本地库。
+

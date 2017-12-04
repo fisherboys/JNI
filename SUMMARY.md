@@ -6,7 +6,7 @@
   * [1.2 JNI的作用](chapter1/12-jnide-zuo-yong.md)
 * [新手入门](chapter2.md)
   * [2.1 概览](chapter2/chapter21.md)
-  * [chapter2.2](chapter2/chapter22.md)
+  * [2.2 声明本地方法](chapter2/chapter22.md)
   * [chapter2.3](chapter2/chapter23.md)
   * [chapter2.4](chapter2/chapter24.md)
   * [chapter2.5](chapter2/chapter25.md)
