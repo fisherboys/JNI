@@ -15,7 +15,7 @@
 * [基本数据类型，字符串和数组](chapter3.md)
   * [3.1 一个简单的本地方法](chapter3/chapter31.md)
   * [3.2 访问字符串](chapter3/chapter32.md)
-  * [chapter3.3](chapter3/chapter33.md)
+  * [3.3 访问数组](chapter3/chapter33.md)
 * [chapter4](chapter4.md)
 * [chapter5](chapter5.md)
 * [chapter6](chapter6.md)
