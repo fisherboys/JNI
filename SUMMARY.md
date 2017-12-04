@@ -13,7 +13,7 @@
   * [2.6 编译C源码生成本地库](chapter2/chapter26.md)
   * [2.7 运行程序](chapter2/chapter27.md)
 * [基本数据类型，字符串和数组](chapter3.md)
-  * [chapter3.1](chapter3/chapter31.md)
+  * [3.1 一个简单的本地方法](chapter3/chapter31.md)
   * [chapter3.2](chapter3/chapter32.md)
   * [chapter3.3](chapter3/chapter33.md)
 * [chapter4](chapter4.md)
