@@ -7,7 +7,7 @@
 * [新手入门](chapter2.md)
   * [2.1 概览](chapter2/chapter21.md)
   * [2.2 声明本地方法](chapter2/chapter22.md)
-  * [chapter2.3](chapter2/chapter23.md)
+  * [2.3 编译HelloWorld类](chapter2/chapter23.md)
   * [chapter2.4](chapter2/chapter24.md)
   * [chapter2.5](chapter2/chapter25.md)
   * [chapter2.6](chapter2/chapter26.md)
