@@ -7,6 +7,11 @@
 * [chapter2](chapter2.md)
   * [chapter2.1](chapter2/chapter21.md)
   * [chapter2.2](chapter2/chapter22.md)
+  * [chapter2.3](chapter2/chapter23.md)
+  * [chapter2.4](chapter2/chapter24.md)
+  * [chapter2.5](chapter2/chapter25.md)
+  * chapter2.6
+  * [chapter2.7](chapter2/chapter27.md)
 * [chapter3](chapter3.md)
 * [chapter4](chapter4.md)
 * [chapter5](chapter5.md)
