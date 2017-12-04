@@ -10,7 +10,7 @@
   * [2.3 编译HelloWorld类](chapter2/chapter23.md)
   * [2.4 创建本地方法头文件](chapter2/chapter24.md)
   * [2.5 本地方法的实现](chapter2/chapter25.md)
-  * [chapter2.6](chapter2/chapter26.md)
+  * [2.6 编译C源码生成本地库](chapter2/chapter26.md)
   * [chapter2.7](chapter2/chapter27.md)
 * [chapter3](chapter3.md)
 * [chapter4](chapter4.md)
