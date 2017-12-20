@@ -7,7 +7,7 @@ JNI提供函数使本地代码能获得和设置对象中的实例域和类中�
 ```
 class InstanceFieldAccess {
     private String s;
-    
+
     private native void accessField();
     public static void main(String args[]) {
         InstanceFieldAccess c = new InstanceFieldAccess();
@@ -68,6 +68,10 @@ In C:
 In Java:
     c.s = "123"
 ```
+
+### 4.1.1 访问实例域的流程
+
+
 
 
 
