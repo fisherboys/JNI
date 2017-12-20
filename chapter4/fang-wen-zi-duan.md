@@ -71,6 +71,12 @@ In Java:
 
 ### 4.1.1 访问实例域的流程
 
+为了访问实例域，本地方法遵循两个步骤。首先，调用GetFieldID从类引用中获得域的ID，域名和域描述符：
+
+```
+fid = (*env)->GetFieldID(env, cls, "s", "Ljava/lang/String;");
+```
+
 
 
 
