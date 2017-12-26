@@ -121,5 +121,74 @@ private native nativeMethod ()V
 
 -s参数告诉javap输出JNI描述符字符串，而不是正如它们在Java中出现的类型。-p参数让javap输出的信息包含类的私有成员。
 
+### 4.2.3 调用静态方法
+
+之前的例子描述本地代码如何调用实例方法。类似的，你可以按照以下方式从本地代码执行回调给静态方法：
+
+* 使用GetStaticMethodId获得方法ID，对应GetMethodID。
+* 将类，方法ID和变量传给其中一个静态方法族中的调用函数：CallStaticVoidMethod, CallStaticBooleanMethod等等。
+
+能调用静态方法的函数和能够调用实例方法的函数有一个关键的区别。前者把一个类引用作为第二个参数，而后者将一个对象引用作为第二个参数。例如，你传递类引用给CallStaticVoidMethod，但是传递一个对象引用给CallVoidMethod。
+
+在Java层面，你可以用两种可选的语法调用一个类Cls中的静态方法f：Cls.f或obj.f，obj指的是Cls的一个实例。（然而，后者是推荐的编码风格。）在JNI中，当从本地方法调用静态方法时，你必须总是指定类引用。
+
+我们先看一个回调从本地代码的静态方法。它与之前的InstanceMethodCall例子有细小的区别：
+
+```
+class StaticMethodCall {
+    private native void nativeMethod();
+    
+    private static void callback() {
+        System.out.println("In Java");
+    }
+    public static void main(String args[]) {
+        StaticMethodCall c = new StaticMethodCall();
+        c.nativeMethod();
+    }
+    static {
+        System.loadLibrary("StaticMethodCall");
+    }
+}
+```
+
+下面本地代码的实现：
+
+```
+JNIEXPORT void JNICALL
+Java_StaticMethodCall_nativeMethod(JNIEnv *env, jobject obj)
+{
+    jclass cls = (*env)->GetObjectClass(env, obj);
+    jmethodID mid =
+        (*env)->GetStaticMethodID(env, cls, "callback", "()V");
+    if (mid == NULL) {
+        return; /* method not found */
+    }
+    printf("In C\n");
+    (*env)->CallStaticVoidMethod(env, cls, mid);
+}
+```
+
+确保你传递的是cls给CallStaticVoidMethod，而不是obj。运行以上程序产生如下输出：
+
+```
+In C
+In Java
+```
+
+### 4.2.4 调用超类的实例方法
+
+你可以调用定义在超类中但是在类中未被覆写的实例方法。JNI为了实现这个功能提供一整套CallNonvirtual&lt;Type&gt;Method函数。调用在超类中定义的方法，你可以执行如下步骤：
+
+* 用GetMethodID从一个超类的引用获取方法ID，与GetStaticMethodID相对。
+* 传递对象，超类，方法ID和变量给非虚函数调用的函数，例如CallNonvirtualVoidMethod, CallNonvirtualBooleanMethod等等。
+
+你将调用一个超类的一个实例方法的情况比较少见。在Java中，这个能力类似调用一个覆写的超类方法，如下：
+
+```
+super.f();
+```
+
+CallNonvirtualVoidMethod也能用来调用构造器（constructor），正如下一节所要讲述的。
+
 
 
