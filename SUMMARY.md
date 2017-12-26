@@ -19,6 +19,7 @@
 * [变量和方法](chapter4.md)
   * [4.1 访问变量](chapter4/fang-wen-zi-duan.md)
   * [4.2 调用方法](chapter4/42-diao-yong-fang-fa.md)
+  * [4.3 调用Constructors](chapter4/43-diaoyong-constructors.md)
 * [chapter5](chapter5.md)
 * [chapter6](chapter6.md)
 
