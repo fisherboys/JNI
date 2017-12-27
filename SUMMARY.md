@@ -17,9 +17,9 @@
   * [3.2 访问字符串](chapter3/chapter32.md)
   * [3.3 访问数组](chapter3/chapter33.md)
 * [变量和方法](chapter4.md)
-  * [4.1 访问变量](chapter4/fang-wen-zi-duan.md)
+  * [4.1 访问字段](chapter4/fang-wen-zi-duan.md)
   * [4.2 调用方法](chapter4/42-diao-yong-fang-fa.md)
-  * [4.3 调用Constructors](chapter4/43-diaoyong-constructors.md)
+  * [4.3 调用构造函数](chapter4/43-diaoyong-constructors.md)
 * [chapter5](chapter5.md)
 * [chapter6](chapter6.md)
 
