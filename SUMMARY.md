@@ -20,6 +20,7 @@
   * [4.1 访问字段](chapter4/fang-wen-zi-duan.md)
   * [4.2 调用方法](chapter4/42-diao-yong-fang-fa.md)
   * [4.3 调用构造函数](chapter4/43-diaoyong-constructors.md)
+  * [4.4 缓存字段和方法ID](chapter4/44-huan-cun-zi-duan-he-fang-fa-id.md)
 * [chapter5](chapter5.md)
 * [chapter6](chapter6.md)
 
