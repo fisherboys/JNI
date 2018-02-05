@@ -21,6 +21,7 @@
   * [4.2 调用方法](chapter4/42-diao-yong-fang-fa.md)
   * [4.3 调用构造函数](chapter4/43-diaoyong-constructors.md)
   * [4.4 缓存字段和方法ID](chapter4/44-huan-cun-zi-duan-he-fang-fa-id.md)
+  * [4.5 JNI字段和方法操作效率](chapter4/45-jnizi-duan-he-fang-fa-cao-zuo-xiao-lv.md)
 * [chapter5](chapter5.md)
 * [chapter6](chapter6.md)
 
