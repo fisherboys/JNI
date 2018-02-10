@@ -8,3 +8,5 @@ github:[https://github.com/fisherboys/JNI](https://github.com/fisherboys/JNI)
 
 gitbook:[https://www.gitbook.com/book/fisherboys/jni/details](https://www.gitbook.com/book/fisherboys/jni/details)
 
+英文原版：https://github.com/fisherboys/JNI/blob/master/jni.zip
+
