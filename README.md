@@ -4,5 +4,7 @@ The Java. Native Interface Programmer’s Guide and Specification的中文翻译
 
 本人第一次翻译，欢迎拍砖。
 
-**gitbook:**https://www.gitbook.com/book/fisherboys/jni/details
+github:https://github.com/fisherboys/JNI
+
+**gitbook:**[https://www.gitbook.com/book/fisherboys/jni/details](https://www.gitbook.com/book/fisherboys/jni/details)
 
