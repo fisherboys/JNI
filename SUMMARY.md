@@ -25,5 +25,6 @@
 * [第5章 局部引用和全局引用](chapter5.md)
   * [5.1 局部引用和全局引用](chapter5/51-ju-bu-yin-yong-he-quan-ju-yin-yong.md)
   * [5.1.2 全局引用](chapter5/512-global-references.md)
+  * [5.1.3 弱全局引用](chapter5/513-weak-global-references.md)
 * [chapter6](chapter6.md)
 
